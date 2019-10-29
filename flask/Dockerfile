@@ -2,6 +2,7 @@ FROM python:3.7
 USER root
 
 RUN apt-get update
+RUN apt-get install -y poppler-utils poppler-data
 
 ARG project_dir=/app/
 
