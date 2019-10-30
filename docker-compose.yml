@@ -4,7 +4,7 @@ services:
   webapi:
     build: ./flask
     ports:
-      - "5001:5001"
+      - "5001:80"
     volumes:
       - ./app:/app
     restart: always
