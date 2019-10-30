@@ -1,8 +1,8 @@
-version: '3.3'
+version: "3.3"
 
 services:
   webapi:
-    build: ./flask
+    build: ./
     ports:
       - "5001:80"
     volumes:
